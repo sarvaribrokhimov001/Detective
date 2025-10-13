@@ -1,0 +1,89 @@
+.clients {
+    width: 1200px;
+    height: 723px;
+    background-color: #000;
+    margin: auto;
+    position: relative;
+
+    &_title {
+        width: 300px;
+        height: 48px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 65px;
+        color: #FFFFFF;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    &_text {
+        width: 433px;
+        height: 62px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 70px auto;
+    }
+
+    &_idea {
+        width: 990px;
+        height: 401px;
+    }
+
+    &_img {
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        top: 250px;
+        left: 200px;
+        box-shadow: 10px 10px 150px rgba(110, 30, 185, 0.3);
+    }
+
+    &_texts {
+        display: block;
+    }
+
+    &_idea_text {
+        width: 339px;
+        height: 102px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 34px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 350px;
+        left: 580px;
+    }
+
+    &_idea_author {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 465px;
+        left: 580px;
+    }
+
+    &_idea_gmail {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        top: 490px;
+        left: 580px;
+    }
+}

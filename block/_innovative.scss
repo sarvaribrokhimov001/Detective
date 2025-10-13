@@ -1,0 +1,181 @@
+    .innovative {
+        width: 1200px;
+        height: 440px;
+        margin: auto;
+        background-color: #000;
+        position: relative;
+
+    &_title {
+        width: 342px;
+        height: 26px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        top: 80px;
+        left: 400px;
+    }
+
+    &_companies {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    &_company_1 {
+        width: 235px;
+        height: 98px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background-color: inherit;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 140px;
+        left: 100px;
+    }
+
+    &_company_1_img {
+        width: 155px;
+        height: 34px;
+    }
+
+        &_company_2 {
+            width: 235px;
+            height: 98px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background-color: inherit;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 140px;
+            left: 370px;
+    }
+
+    &_company_2_img {
+            width: 155px;
+            height: 34px;
+    }
+
+        &_company_3 {
+            width: 235px;
+            height: 98px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background-color: inherit;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 140px;
+            left: 640px;
+    }
+
+    &_company_3_img {
+            width: 155px;
+            height: 34px;
+    }
+
+        &_company_4 {
+            width: 235px;
+            height: 98px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background-color: inherit;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 140px;
+            left: 910px;
+    }
+
+    &_company_4_img {
+            width: 155px;
+            height: 34px;
+    }
+
+        &_company_5 {
+        width: 235px;
+        height: 98px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background-color: inherit;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 250px;
+        left: 100px;
+    }
+
+    &_company_5_img {
+        width: 155px;
+        height: 34px;
+    }
+
+        &_company_6 {
+        width: 235px;
+        height: 98px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background-color: inherit;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 250px;
+        left: 370px;
+    }
+
+    &_company_6_img {
+        width: 155px;
+        height: 34px;
+    }
+
+        &_company_7 {
+        width: 235px;
+        height: 98px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background-color: inherit;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 250px;
+        left: 640px;
+    }
+
+    &_company_7_img {
+        width: 155px;
+        height: 34px;
+    }
+
+        &_company_8 {
+        width: 235px;
+        height: 98px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background-color: inherit;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 250px;
+        left: 910px;
+    }
+
+    &_company_8_img {
+        width: 155px;
+        height: 34px;
+    }
+  }

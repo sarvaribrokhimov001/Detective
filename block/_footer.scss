@@ -1,0 +1,90 @@
+.footer {
+    width: 1200px;
+    height: 408px;
+    margin: auto;
+    padding: 50px;
+    background: #000;
+    position: relative;
+
+
+    &_logo_and_text {
+        display: flex;
+        gap: 10px;
+        border: none;
+        border-radius: 8px;
+        width: 138px;
+        height: 38px;
+    }
+
+    &__logo {
+        width: 38px;
+        height: 38px;
+        // position: absolute;
+        // top: 40px;
+        // left: 120px;
+    }
+
+    &_logo_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #C0C0C0;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    &_links {
+       display: flex;
+       gap: 50px;
+       position: absolute;
+       top: 60px;
+       right: 100px;
+    }
+
+    &_link_text {
+        display: block;
+    }
+
+    &__link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 26px;
+        color: #FFFFFF;
+
+    }
+
+    &__link:hover {
+        background-color: #000;
+        color: cyan;
+    }
+
+    &_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 26px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 20px;
+    } 
+
+    &_icon_links {
+        display: flex;
+        gap: 30px;
+        font-size: 24px;
+        position: absolute;
+        top: 350px;
+    }
+
+   &_icon {
+        color: #fff;
+   }
+
+   &_icon:hover {
+        color: orange; 
+   }
+}

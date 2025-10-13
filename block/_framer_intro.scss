@@ -1,0 +1,115 @@
+.framer_intro {
+    width: 1200px;
+    height: 1165px;
+    padding: 50px;
+    margin: auto;
+    position: relative;
+    background: linear-gradient(180deg, #000000 15%, #2A193C 30%, #4D3763 60%, #622A9A 85%, #9855FF 100%);
+    // background: linear-gradient(270deg, #2A193C 0%, #4D3763 20%, #622A9A 40%, #602A9A 60%, #fff 70%, #4D3763 80%, #2A193C 100%);
+    border: 1px solid #fff;
+
+    &_new_div {
+        width: 291px;
+        height: 42px;
+        border: 1px solid #fff;
+        border-radius: 40px;
+        background-color: #000000;
+        margin: auto;
+        position: relative;
+    }
+
+    &_new_btn {
+        width: 34px;
+        height: 18px;
+        background: #9855FF;
+        border-radius: 40px;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 10px;
+        color: #000000;
+        border: none;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    &_new_btn:hover {
+        background-color: #000000;
+        color: cyan;
+    }
+
+    &_new_text {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        color: #9855FF;
+        position: absolute;
+        top: 10px;
+        left: 50px;
+    }
+
+    &__title {
+        width: 680px;
+        height: 168px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 85px;
+        line-height: 84px;
+        text-align: center;
+        background: linear-gradient(180deg, #FFFFFF 54.17%, #B372CF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        // text-fill-color: transparent;
+      
+        position: absolute;
+        top: 120px;
+        left: 280px;
+    }
+
+    &__text {
+        width: 544px;
+        height: 62px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 300px;
+        left: 310px;
+    }
+
+    &_btn { 
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 31px;
+        text-align: center;
+        color: #000000;
+        padding: 5px 15px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        transition: all 0.5s ease;
+        position: absolute;
+        top: 380px;
+        left: 520px;
+    }
+
+    &_btn:hover {
+        background-color: #000000;
+        color: cyan;
+    } 
+
+    &_img {
+        width: 1120px;
+        height: 815px;
+        position: absolute;
+        top: 400px;
+        right: 30px;
+    }
+}
