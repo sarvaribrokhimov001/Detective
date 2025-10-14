@@ -61,6 +61,26 @@
         font-size: 40px;
     }
 
+    &_cards {
+        display: flex;
+        gap: 10px;
+    }
+
+    &_card_1 {
+        width: 425px;
+        height: 517px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+    }
+
+    &_card_1_div {
+        width: 405px;
+        height: 224px;
+        border-radius: 20px;
+        background-color: #F3F6F9;
+        margin: auto;
+    }
+
     
     
 
