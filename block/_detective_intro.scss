@@ -1,115 +1,137 @@
-.framer_intro {
-    width: 1200px;
-    height: 1165px;
+.detective_intro {
+    width: 1420px;
+    height: 700px;
     padding: 50px;
     margin: auto;
-    position: relative;
-    background: linear-gradient(180deg, #000000 15%, #2A193C 30%, #4D3763 60%, #622A9A 85%, #9855FF 100%);
-    // background: linear-gradient(270deg, #2A193C 0%, #4D3763 20%, #622A9A 40%, #602A9A 60%, #fff 70%, #4D3763 80%, #2A193C 100%);
-    border: 1px solid #fff;
-
-    &_new_div {
-        width: 291px;
-        height: 42px;
-        border: 1px solid #fff;
-        border-radius: 40px;
-        background-color: #000000;
-        margin: auto;
-        position: relative;
-    }
-
-    &_new_btn {
-        width: 34px;
-        height: 18px;
-        background: #9855FF;
-        border-radius: 40px;
-        font-family: 'Inter';
-        font-weight: 700;
-        font-size: 10px;
-        color: #000000;
-        border: none;
-        position: absolute;
-        top: 10px;
-        left: 10px;
-    }
-
-    &_new_btn:hover {
-        background-color: #000000;
-        color: cyan;
-    }
-
-    &_new_text {
-        font-family: 'Inter';
-        font-weight: 400;
-        font-size: 16px;
-        color: #9855FF;
-        position: absolute;
-        top: 10px;
-        left: 50px;
-    }
-
-    &__title {
-        width: 680px;
-        height: 168px;
-        font-family: 'Inter';
+    background-color: #E5E5E5;
+    display: flex;
+    
+    
+    &_title {
+        font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 500;
-        font-size: 85px;
-        line-height: 84px;
-        text-align: center;
-        background: linear-gradient(180deg, #FFFFFF 54.17%, #B372CF 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        // text-fill-color: transparent;
-      
+        font-weight: 400;
+        font-size: 75px;
+        line-height: 85%;
+        color: #142251;
+        margin-top: 10px;
+    }
+
+    &_title span {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 75px;
+        line-height: 85%;
+        color: #AFB4C4;
+    }
+
+    &_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        color: #989EB1;
+        margin-top: 25px;
+    }
+
+    &_sml_div {
+        display: flex;
+        gap: 25px;
+        width: 350px;
+        height: 70px;
+        background-color: #E4E7F1;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding: 20px 60px;
+    }
+
+    &_sml_div_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        color: #213887;
+        text-align: start;
+        padding-top: 5px;
+    }
+
+    &_sml_div_icon_img {
+        width: 25px;
+        height: 25px;
+        margin-top: 3px;
+    }
+
+    &_arrow_down_div {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: #F2F3F8;
+        position: relative;
+        top: 200px;
+    }
+
+    &_arrow_down_icon {
+        width: 30px;
+        height: 30px;
         position: absolute;
-        top: 120px;
+        top: 16px;
+        left: 14px;
+    }
+
+    &_right_img {
+        width: 700px;
+        height: 550px;
+        margin: 0px 20px;
+    }
+
+    &_right_sml_div {
+        display: flex;
+        gap: 12px;
+        width: 400px;
+        height: 54px;
+        border-radius: 20px;
+        background-color: #F2F3F8;
+        position: relative;
+        top: 20px;
         left: 280px;
     }
 
-    &__text {
-        width: 544px;
-        height: 62px;
-        font-family: 'Inter';
+    &_right_sml_div_img {
+        width: 24px;
+        height: 24px;
+        margin: 15px 20px;
+    }
+
+    &_right_sml_div_text {
+        font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 20px;
-        line-height: 31px;
-        text-align: center;
-        color: #FFFFFF;
-        position: absolute;
-        top: 300px;
-        left: 310px;
+        line-height: 100%;
+        text-transform: lowercase;
+        color: #142251;
+        margin: 14px -10px;
     }
 
-    &_btn { 
-        font-family: 'Inter';
+    &_right_line {
+        width: 1px;
+        height: 32px;
+        border: 1px solid #E4E7F1;
+        margin: 10px 5px;
+    }
+
+    &_right_gmail {
+        font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 31px;
-        text-align: center;
-        color: #000000;
-        padding: 5px 15px;
-        background: #FFFFFF;
-        border-radius: 8px;
-        transition: all 0.5s ease;
-        position: absolute;
-        top: 380px;
-        left: 520px;
-    }
-
-    &_btn:hover {
-        background-color: #000000;
-        color: cyan;
-    } 
-
-    &_img {
-        width: 1120px;
-        height: 815px;
-        position: absolute;
-        top: 400px;
-        right: 30px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        text-decoration-line: underline;
+        text-transform: lowercase;
+        color: #213887;
+        margin-top: 14px;
     }
 }

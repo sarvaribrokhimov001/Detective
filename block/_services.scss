@@ -1,201 +1,67 @@
-    .harness {
-        width: 1200px;
-        height: 1136px;
+    .services {
+        width: 1420px;
+        height: 869px;
         margin: auto;
-        position: relative;
-        // background: linear-gradient(200deg, #000 0%, #110820 31%, #371866 40%, #000 100%);
-        background-color: #000;
+        background-color: #E5E5E5;
 
 
+    &_big_div {
+        width: 1320px;
+        height: 850px;
+        background-color: #E4E7F1;
+        border-radius: 20px;
+        margin: auto;
+    }
+
+    &_title_text_div {
+        display: flex;
+    }
 
     &_title {
-        width: 553px;
-        height: 114px;
-        font-family: 'Inter';
+        width: 271px;
+        height: 70px;
+        font-family: 'Gilroy';
         font-style: normal;
         font-weight: 500;
-        font-size: 32px;
-        line-height: 38px;
-        text-align: center;
-        color: #FFFFFF;
-        position: absolute;
-        top: 100px;
-        left: 300px;
+        font-size: 80px;
+        line-height: 100%;
+        color: #142251;
+        padding: 80px 50px;
     }
 
-    &_goal_setting {
+    &_text {
+        width: 340px;
+        height: 72px;   
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 120%;
+        color: #989EB1;
+        padding-top: 20px;
+        margin: auto;
+    }
+
+    &_sml_div {
+        width: 170px;
+        height: 84px;
+        background-color: #fff;
+        border-radius: 40px;
+        margin: 80px;
+        padding: 25px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        flex-wrap: wrap;
+        gap: 40px;
     }
 
-    &_goal_setting_1 {
-        width: 346px;
-        height: 400px;
-        background-color: #000;
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        display: block;
-        position: absolute;
-        top: 250px;
-        left: 60px;
+    &_sml_div_left {
+        font-size: 40px;
     }
 
-    &_goal_setting_1_img {
-        width: 265px;
-        height: 206px;
-        position: absolute;
-        left: 40px;
+    &_sml_div_right {
+        font-size: 40px;
     }
 
-    &_goal_setting_1_title {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 31px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 240px;
-        left: 40px;
-    }
-
-    &_goal_setting_1_text {
-        width: 259px;
-        height: 52px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: rgba(255, 255, 255, 0.7);
-        position: absolute;
-        top: 280px;
-        left: 40px;
-    }
-
-    &_goal_setting_2 {
-        width: 744px;
-        height: 400px;
-        background-image: url(../images/User_friendly.png);
-        background-color: #361764;
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        border-radius: 15px;
-        position: absolute;
-        top: 250px;
-        right: 40px;
-    }
-
-    &_goal_setting_2_title {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 31px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 280px;
-        left: 40px;
-    }
-
-    &_goal_setting_2_text {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: rgba(255, 255, 255, 0.7);
-        width: 259px;
-        height: 52px;
-        position: absolute;
-        top: 310px;
-        left: 40px;
-    }
-
-    &_goal_setting_3 {
-        width: 744px;
-        height: 400px;
-        background-image: url(../images/Visual_reports.png);
-        background-color: #361764;
-        background-color: #000;
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        border-radius: 15px;
-        position: absolute;
-        top: 670px;
-        left: 60px;
-    }
     
-    &_goal_setting_3_title {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 31px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 270px;
-        left: 40px;
-    }
-
-    &_goal_setting_3_text {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: rgba(255, 255, 255, 0.7);
-        width: 189px;
-        height: 52px;
-        position: absolute;
-        top: 300px;
-        left: 40px;
-    }
-
-    &_goal_setting_4 {
-        width: 346px;
-        height: 400px;
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        border-radius: 10px;
-        background-color: #000;
-        position: absolute;
-        top: 670px;
-        left: 820px;
-    }
-
-    &_goal_setting_4_img {
-        width: 234px;
-        height: 234px;
-        background-color: #000;
-        position: absolute;
-        left: 50px;
-    }
-
-    &_goal_setting_4_title {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 31px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 260px;
-        left: 40px;
-    }
-
-    &_goal_setting_4_text {
-        width: 225px;
-        height: 52px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: rgba(255, 255, 255, 0.7);
-        position: absolute;
-        top: 300px;
-        left: 40px;
-    }
     
 
 
