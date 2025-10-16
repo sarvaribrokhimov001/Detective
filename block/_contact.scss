@@ -1,300 +1,66 @@
-    .pricing {
-        width: 1200px;
-        height: 793px;
-        background-color: #000;
-        // border: 5px solid red;
+    .contact {
+        width: 1700px;
+        height: 800px;
+        background-color: #E5E5E5;
         margin: auto;
-        position: relative;
+        padding-top: 100px;
+        
       
     &_title {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 56px;
-        line-height: 65px;
-        color: #FFFFFF;
-        text-align: center;
-    }
-
-    &_text {
-        width: 433px;
-        height: 62px;
-        font-family: 'Inter';
+        width: 640px;
+        height: 84px;
+        font-family: 'Gilroy';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 31px;
-        text-align: center;
-        color: #FFFFFF;
-        margin: 30px auto;
+        font-size: 84px;
+        line-height: 100%;
+        color: #142251;
+        margin: 30px;
     }
 
-    &_div {
-        width: 77px;
-        height: 31px;
-        background-color: inherit;
-        display: flex;
-        position: absolute;
-        top: 200px;
-        left: 570px;
-    }
-
-    &_sml_div {
-        width: 33px;
-        height: 20px;
-        background-color: #8C45FF;
-        border-radius: 30px;
-        position: absolute;
-        top: 5px;
-        left: 0px;
-    }
-
-    &_round {
-        width: 16px;
-        height: 16px;
+    &_icon_div {
+        width: 54px;
+        height: 54px;
         border-radius: 50%;
-        background-color: #F9F5FF;
-        position: absolute;
-        top: 2px;
-        left: 15px;
+        border: 1px solid #F2F3F8;
     }
 
-    &_div_text {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 31px;
-        color: rgba(255, 255, 255, 0.5);
-        position: absolute;
-        top: 0px;
-        left: 40px;
+    &_icon_div_icon {
+        font-size: 25px;
     }
-}
 
-    .waitlists {
-        width: 941px;
-        height: 504px;
+    &_inputs {
         display: flex;
-        gap: 10px;
+        flex-wrap: wrap;
+        gap: 30px;
     }
 
-    .waitlist {
-        width: 307px;
-        height: 500px;
-        border: 1px solid white;
-        border-radius: 10px;
-        position: relative;
-        top: 100px;
-        left: 100px;
-
-    &_title {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 31px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 20px;
-        left: 20px;
-    }
-
-    &_price {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: rgba(255, 255, 255, 0.7);
-        position: absolute;
-        top: 55px;
-        left: 20px;
-    }
-
-    &_line {
-        width: 267px;
-        height: 1px;
-        color: #282729; 
-        // color: white;
-        position: absolute;
-        top: 100px;
-        left: 20px;
-    }
-
-    &_texts {
-        display: block;
-    }
-
-    &_text_1 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        align-items: center;
-        color: #FFFFFF;
-        position: absolute;
-        top: 120px;
-        left: 40px;
-    }
-
-    &_text_2 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        align-items: center;
-        color: #FFFFFF;
-        position: absolute;
-        top: 155px;
-        left: 40px;
-    }
-
-    &_text_3 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        align-items: center;
-        color: #FFFFFF;
-        position: absolute;
-        top: 190px;
-        left: 40px;
-    }
-
-    &_text_4 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        align-items: center;
-        color: #FFFFFF;
-        position: absolute;
-        top: 225px;
-        left: 40px;
-    }
-
-    &_text_5 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 260px;
-        left: 40px;
-    }
-
-    &_text_6 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 295px;
-        left: 40px;
-    }
-
-    &_text_7 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 330px;
-        left: 40px; 
-    }
-
-    &_text_8 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        color: #FFFFFF;
-        position: absolute;
-        top: 365px;
-        left: 40px; 
-    }
-
-    &_btn {
-        width: 267px;
-        height: 38px;
-        padding: 6px 15px;
-        background: rgba(61, 61, 61, 0.4);
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        box-shadow: inset 0px 0px 6px 3px rgba(255, 255, 255, 0.25);
-        backdrop-filter: blur(7px);
-        border-radius: 10px;
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
+    &_input {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #FFFFFF;
-        position: absolute;
-        top: 440px;
-        left: 20px;
+        gap: 20px;
+        width: 504px;
+        height: 48px;
     }
 
-    &_btn:hover {
-        background-color: #000;
-        color: cyan;
-    }
-
-    &_btn2 {
-        width: 267px;
-        height: 38px;
-        padding: 6px 15px;
-        background: #8C45FF;
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        box-shadow: inset 0px 0px 6px 3px #9c70e2;
-        backdrop-filter: blur(7px);
-        border-radius: 10px;
-
-        font-family: 'Inter';
+    &_input_text {
+        font-family: 'Gilroy';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #FFFFFF;
-        position: absolute;
-        top: 440px;
-        left: 20px;
+        font-size: 34px;
+        line-height: 100%;
+        color: #142251;
     }
 
-    &_btn2:hover {
-        background-color: #000;
-        color: cyan;
+    &_main_input {
+        width: 504px;
+        height: ;
     }
 
-     &_waitlist2 {
-        width: 307px;
-        height: 500px;
-        border: 1px solid white;
-        border-radius: 10px;
-        box-shadow: inset 1px #9c70e2;
-        background: linear-gradient(180deg, #010002 40%, #361764 100%);
-        position: relative;
-        top: 100px;
-        left: 100px;
-    }
+    // &_text {
+       
+    // }
+
+    
 }
 
    

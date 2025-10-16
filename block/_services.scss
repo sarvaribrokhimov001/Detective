@@ -1,12 +1,12 @@
     .services {
-        width: 1420px;
+        width: 1700px;
         height: 869px;
         margin: auto;
         background-color: #E5E5E5;
 
 
     &_big_div {
-        width: 1320px;
+        width: 1650px;
         height: 850px;
         background-color: #E4E7F1;
         border-radius: 20px;
@@ -53,6 +53,10 @@
         gap: 40px;
     }
 
+    &_sml_div:hover {
+        background-color: green;
+    }
+
     &_sml_div_left {
         font-size: 40px;
     }
@@ -81,8 +85,228 @@
         margin: auto;
     }
 
-    
-    
+    &_card_1_images {
+        display: flex;
+        gap: 30px;
+        margin-top: 10px;
+        padding: 25px 38px; 
+    }
 
+    &_card_1_image {
+        width: 122px;
+        height: 147px;
+    }
 
+    &_card_1_title {
+        width: 180px;
+        height: 62px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 90%;
+        color: #142251;
+        margin: 25px;
+    }
+
+    &_card_1_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 100%;
+        color: #142251;
+        margin: 10px 20px;
+    }
+
+    &_card_1_text span {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 100%;
+        color: #142251;
+        margin-left: 10px;
+    }
+
+    &_card_2 {
+        width: 425px;
+        height: 517px;
+        border-radius: 20px;
+        background-color: #FFFFFF;  
+    }
+
+    &_card_2_div {
+        width: 405px;
+        height: 224px;
+        border-radius: 20px;
+        background-color: #F3F6F9;
+        margin: auto;
+    }
+
+    &_card_2_images {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    &_card_2_image1 {
+        width: 255px;
+        height: 112px;
+        position: absolute;
+        top: 0px;
+    }
+
+    &_card_2_image2 {
+        width: 255px;
+        height: 142px;
+        position: absolute;
+        top: 38px;
+        left: 70px;
+        z-index: 2;
+    }
+
+    &_card_2_image3 {
+        width: 253px;
+        height: 91px;
+        position: absolute;
+        top: 135px;
+        left: 150px;
+    }
+
+    &_card_2_title {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 90%;
+        color: #142251;
+        margin: 25px;
+    }
+
+    &_card_2_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 100%;
+        color: #142251;
+        margin: 10px 20px;
+    }
+
+    &_card_2_sml_div {
+        width: 365px;
+        height: 71px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #142251;
+        border-radius: 10px;
+        margin: 20px auto;
+    }
+
+    &_card_2_sml_div:hover {
+        background-color: #000;
+        transition: all 1s ease;
+    }
+
+    &_card_2_sml_div_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        color: #FFFFFF;
+        margin: 0px 20px;
+    }
+
+    &_card_2_sml_div_img {
+        width: 31px;
+        height: 31px;
+        margin: 0px 28px;
+    }
+
+    &_card_3 {
+        width: 425px;
+        height: 517px;
+        border-radius: 20px;
+        background-color: #FFFFFF; 
+    }
+
+    &_card_3_div {
+        width: 405px;
+        height: 224px;
+        border-radius: 20px;
+        background-color: #F3F6F9;
+        margin: 10px auto;
+    }
+
+    &_card_3_image {
+        width: 218px;
+        height: 137px;
+        margin: 50px 90px;
+    }
+
+    &_card_3_title {
+        width: 140px;
+        height: 62px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;    
+        line-height: 90%;
+        color: #142251;
+        margin: 25px; 
+    }
+
+    &_card_3_text {   
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ine-height: 100%;
+        color: #142251;
+        margin: 10px 20px;
+    }
+
+    &_card_4 {
+        width: 425px;
+        height: 517px;
+        border-radius: 20px;
+        background-color: #FFFFFF; 
+    }
+
+    &_card_4_div {
+        width: 405px;
+        height: 224px;
+        border-radius: 20px;
+        background-color: #F3F6F9;
+        margin: 10px auto;
+    }
+
+    &_card_4_image {
+        width: 95px;
+        height: 193px;
+        margin: 15px 140px;
+    }
+
+    &_card_4_title {
+        width: 281px;
+        height: 31px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 90%;
+        color: #142251;
+        margin: 25px;
+    }
+
+    &_card_4_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 100%;
+        color: #142251;
+        margin: 10px 20px;
+    }
 }

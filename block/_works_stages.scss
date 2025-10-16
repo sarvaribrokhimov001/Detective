@@ -1,58 +1,83 @@
-.elevate {
-    width: 1200px;
-    height: 681px;
+.stages {
+    width: 1700px;
+    height: 900px;
     margin: auto;
-    background-color: #190D2E;
-    position: relative;
+    background-color: #E5E5E5;
+    padding-top: 100px;
+    // display: flex;  
 
     &_title {
-        font-family: 'Inter';
+        width: 503px;
+        height: 168px;
+        font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 500;
-        font-size: 56px;
-        line-height: 65px;
-        color: #FFFFFF;
-        width: 354px;
-        position: absolute;
-        top: 80px;
-        left: 50px;
+        font-weight: 400;
+        font-size: 84px;
+        line-height: 100%;
+        color: #142251;
+        margin: 0px 30px;
     }
-}
 
-    .efforts {
-        width: 1086px;
-        height: 459px;
+    &_cards {
         display: flex;
-        justify-content: space-evenly;
-        gap: 50px;
-        align-items: center;
-        position: relative;
-        top: 160px;
-
-    &_texts {
+        flex-direction: column;
+        gap: 10px;
         margin-top: 50px;
     }
 
-    &_title {
-        font-family: 'Inter';
+    &_card {
+        width: 454px;
+        height: 164px;
+        border-radius: 10px;
+        border: 1px solid #989EB1;
+        margin: 0px 30px;
+    }
+
+    &_icon_num {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_icon {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    &_num {
+        font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 31px;
-        color: #FFFFFF;
-        margin-top: 50px;
-
-
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        color: #989EB1;
+        margin: 10px;
     }
 
     &_text {
-        width: 259px;
-        height: 52px;
-        font-family: 'Inter';
+        font-family: 'Gilroy';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: rgba(255, 255, 255, 0.7);
+        font-size: 27px;
+        line-height: 120%;
+        color: #989EB1;
+        margin: 20px;
     }
+
+    &_icon_2 {
+        width: 48px;
+        height: 48px;
+        margin: 20px;
+    }
+
+    &_image {
+        position: relative;
+    }
+
+    &_img {
+        width: 1200px;
+        height: 900px;
+        position: absolute;
+        bottom: -120px;
+        left: 460px;
+    }       
 }

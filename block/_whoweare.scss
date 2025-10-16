@@ -1,5 +1,5 @@
     .whoweare {
-        width: 1420px;
+        width: 1700px;
         height: 880px;
         margin: auto;
         background-color: #E5E5E5;
@@ -34,12 +34,19 @@
         gap: 5px;
         margin-top: 200px;
         margin: auto;
+        padding-top: 70px;
     }
 
     &_card_1 {
         width: 454px;
         height: 293px;
         position: relative;
+    }
+
+    &_card_1_pins {
+        position: absolute;
+        left: 150px;
+        z-index: 2;
     }
 
     &_card_1_img {
@@ -70,6 +77,8 @@
         width: 320px;
         height: 380px;
         position: relative;
+        top: 0px;
+        left: 80px;
     }
 
     &_card_2_img {
@@ -99,15 +108,19 @@
         width: 384px;
         height: 206px;
         position: relative;
+        left: 200px;
     }
 
     &_card_3_img {
         width: 380px;
         height: 206px;
+        position: absolute;
+        top: 220px;
+        right: 40px;
     }
 
     &_card_3_text {
-        width: 345px;
+        width: 375px;
         height: 102px;
         font-family: 'Gilroy';
         font-style: normal;
@@ -118,6 +131,14 @@
         margin-bottom: 100px;
     }
 
+    &_card_3_camera {
+        width: 76px;
+        height: 76px;
+        position: absolute;
+        top: 210px;
+        left: 250px;
+    }
+
     &_card_3_text span {
         color: #989EB1;
     }
@@ -125,6 +146,9 @@
     &_card_4 {
         width: 250px;
         height: 205px;
+        position: relative;
+        top: -30px;
+        left: 260px;
     }
 
     &_card_4_img {

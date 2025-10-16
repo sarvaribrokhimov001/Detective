@@ -5,7 +5,6 @@
     margin: auto;
     padding: 50px;
     background-color: #E5E5E5;
-    // width: 1420px;
     height: 30px;
 
     &__logo {
@@ -60,6 +59,12 @@
         background-color: inherit;
     }
 
+    &_sml_div:hover {
+        background-color: #000;
+        transition: all 1s ease; 
+        border-radius: 10px;
+    }
+
     &_sml_div_text {
         font-family: 'Gilroy';
         font-style: normal;
@@ -69,12 +74,6 @@
         color: #213887;
         text-align: start;
         padding-top: 5px;
-    }
-
-    &_sml_div_text:hover {
-        background-color: #000;
-        color: cyan;
-        transition: all 1s ease;
     }
 
     // &_sml_div_icon {
