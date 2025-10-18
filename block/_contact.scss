@@ -1,13 +1,18 @@
     .contact {
         width: 1700px;
-        height: 800px;
+        height: 600px;
         background-color: #E5E5E5;
         margin: auto;
         padding-top: 100px;
         
       
+    &_title_div {
+        display: flex;
+        justify-content: space-between;
+    }
+
     &_title {
-        width: 640px;
+        width: 700px;
         height: 84px;
         font-family: 'Gilroy';
         font-style: normal;
@@ -22,11 +27,20 @@
         width: 54px;
         height: 54px;
         border-radius: 50%;
-        border: 1px solid #F2F3F8;
+        background-color: #F2F3F8;
+        margin: 55px;
+    }
+
+    &_icon_div:hover {
+        background-color: green;
     }
 
     &_icon_div_icon {
         font-size: 25px;
+        margin: 13px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &_inputs {
@@ -36,13 +50,14 @@
     }
 
     &_input {
-        display: flex;
-        gap: 20px;
-        width: 504px;
-        height: 48px;
+        display: flex;  
+        gap: 15px;
+        margin: 50px 30px;
     }
 
     &_input_text {
+        width: 180px;
+        height: 34px;
         font-family: 'Gilroy';
         font-style: normal;
         font-weight: 400;
@@ -53,14 +68,74 @@
 
     &_main_input {
         width: 504px;
-        height: ;
+        height: 48px;
     }
 
-    // &_text {
-       
-    // }
+     &_main_input_1 {
+        width: 504px;
+        height: 48px;
+        margin-bottom: 100px;
+     }
 
-    
+    &_main_input::placeholder {
+        font-size: 25px;
+        padding-top: 25px;
+        padding-left: 15px;
+    }
+
+    &_main_input_1::placeholder {
+        font-size: 25px;
+        padding-top: 25px; 
+        padding-left: 15px;
+    }
+
+    &_sml_div {
+        width: 307px;
+        height: 54px;
+        border: none;
+        background-color: #f9faff;
+        margin-top: 50px;
+    }
+
+    &_sml_div_text {
+        width: 245px;
+        height: 54px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #989EB1;
+        padding-left: 20px;
+    }
+
+    &_div {
+        width: 361px;
+        height: 89px;
+        background: #C4C4C4;
+        border-radius: 12px;
+        margin-top: 20px;
+        display: flex;
+        gap: 50px;
+    }
+
+    &_div:hover {
+        background-color: black;
+    }
+
+    &_div_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        color: #213887;
+        padding: 32px 20px;
+    }
+
+    &_div_icon {
+        width: 41px;
+        height: 41px;
+        margin: 22px 10px;
+    }
 }
-
-   

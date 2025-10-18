@@ -1,90 +1,99 @@
-.footer {
-    width: 1200px;
-    height: 408px;
-    margin: auto;
-    padding: 50px;
-    background: #000;
-    position: relative;
+    .footer {
+        width: 1700px;
+        height: 200px;
+        margin: auto;
+        padding: 50px;
+        background: #E5E5E5;
+        // display: flex;
 
+    &_line {
+        width: 1600px;
+        height: 1px;
+    }
 
-    &_logo_and_text {
+    &_div {
+        width: 800px;
+        height: 94px;
+        border-radius: 30px;
+        border: 1px solid #AFB4C4;
+        margin-top: 25px;
         display: flex;
-        gap: 10px;
-        border: none;
-        border-radius: 8px;
-        width: 138px;
-        height: 38px;
     }
 
-    &__logo {
-        width: 38px;
-        height: 38px;
-        // position: absolute;
-        // top: 40px;
-        // left: 120px;
-    }
-
-    &_logo_text {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        color: #C0C0C0;
-        text-align: center;
-        padding-top: 10px;
-    }
-
-    &_links {
-       display: flex;
-       gap: 50px;
-       position: absolute;
-       top: 60px;
-       right: 100px;
-    }
-
-    &_link_text {
-        display: block;
-    }
-
-    &__link {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 26px;
-        color: #FFFFFF;
-
-    }
-
-    &__link:hover {
-        background-color: #000;
-        color: cyan;
-    }
-
-    &_text {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 26px;
-        color: rgba(255, 255, 255, 0.5);
-        margin-top: 20px;
-    } 
-
-    &_icon_links {
+    &_icon_and_text {
         display: flex;
-        gap: 30px;
-        font-size: 24px;
-        position: absolute;
-        top: 350px;
+        gap: 15px;
+        margin: 30px;
     }
 
-   &_icon {
-        color: #fff;
-   }
+    &_icon {
+        width: 26px;
+        height: 26px;
+    }
 
-   &_icon:hover {
-        color: orange; 
-   }
+    &_icon_text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 100%;
+        text-transform: lowercase;
+        color: #142251;
+    }
+
+     &_icon_text:hover {
+        color: red;
+     }
+
+     &_gmail {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 100%;
+        text-decoration-line: underline;
+        text-transform: lowercase;
+        color: #213887;
+        margin: 25px;
+     }
+
+     &_gmail:hover {
+        color: red;
+     }
+
+     &_texts {
+        display: flex;
+        gap: 40px;
+        margin-top: 60px;
+        padding-left: 20px;
+     }
+
+     &_text_1 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        text-decoration-line: underline;
+        color: #989EB1;
+     }
+
+     &_text_2 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        text-decoration-line: underline;
+        color: #213887;
+     }
+
+     &_text_3 {
+        width: 61px;
+        height: 20px;
+     }
+
+     &_div_all {
+        display: flex;
+     }
 }
